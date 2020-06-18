@@ -1,0 +1,61 @@
+
+body {
+	
+	background:url('Mustang.jpg');
+    background-size:cover;
+    font-family:Arial;
+}
+.form-container{
+	display:flex;
+	height: 98vh;
+	width: 100%;
+	justify-content:center;
+	align-items:center; 
+}
+form-wrap{
+	
+	background:rgba(0,0,0,0.10);
+	width: 40%;
+	padding: 15px 20px;
+}
+
+h2{
+	text-align: center;
+	margin: 0px 0px 20px;
+	font-size: 17px;
+	color:#fff;
+}
+form-box{
+	margin: 0px 0px 15px;
+    color:#fff;
+}
+
+input[type="text"]{
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #353535;
+	width: 100%;
+	color:#000;
+}
+form-submit{
+	display: flex;
+    justify-content:center;
+
+}
+input[type="submit"]{
+     width:100%;
+	 box-sizing:border-box;
+	 padding:10px 0;
+	 margin-top:30px;
+     outline:none;
+     border:none;
+     background:#60adde;
+     opacity:0.7;
+     border-radius:25px;
+     font-size: 20px;
+}
+input[type="submit"]:hover{
+      background:#003366;
+      opacity:0.7;
+
+}
